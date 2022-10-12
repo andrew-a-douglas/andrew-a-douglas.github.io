@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+
 <html>
   <head>
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b5b0354758.js" crossorigin="anonymous"></script>
+    <script src="./message.js" defer></script>
   </head>
  
 <body>
@@ -12,7 +15,7 @@
       <li class="navigation-item"><a href="#about-me">About Me</a></li>
       <li class="navigation-item"><a href="#projects">Projects</a></li>
       <li class="navigation-item"><a href="#skills">Skills</a></li>
-      <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+      <li class="navigation-item"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -31,16 +34,21 @@
             Now, I've decided to "up my game" by working through the Codecademny "Full Stack Developer" Path.
           </p>
           <p>
-            (some sort of javascript feature here?)
+            PS - Having a bad day? Why not make it worse with a helpful-yet obnoxious bit of stoic wisdom?
           </p>
+          <button type="button" id="quote">Press this to be educated and simultaneously disgusted.</button>
+          <p id="hidden-msg"></p>
         </div>
-        <img src="./resources/AndrewDouglasHeadshot.jpg" alt="A photo of Andrew Douglas" class="portrait" width="500">
+        <img src="./resources/AndrewDouglasHeadshot.jpg" alt="A photo of Andrew Douglas" class="portrait" >
       </div>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <details class="project">
+      <p>
+        Stay tuned to see some of my projects as they are completed.
+      </p>
+      <!--<details class="project">
         <summary class="project-title">
           <h3>The first computer program</h3>
         </summary>
@@ -70,7 +78,7 @@
           My work inspired the United States Department of Defense to name
           their new programming language after me.
         </p>
-      </details>
+      </details>-->
     </section>
 
     <section id="skills">
@@ -79,19 +87,30 @@
         <i class="fab fa-html5"></i>
         <i class="fab fa-css3-alt"></i>
         <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-aws"></i>
-        <i class="fab fa-sketch"></i>
-        <i class="fab fa-figma"></i>
+        <!--<i class="fab fa-react"></i>-->
+        <!--<i class="fab fa-aws"></i>-->
+        <!--<i class="fab fa-sketch"></i>-->
+        <!--<i class="fab fa-figma"></i>-->
         <i class="fab fa-git"></i>
         <i class="fab fa-chrome"></i>
         <i class="fas fa-terminal"></i>
-        <i class="fas fa-universal-access"></i>
-        <i class="fab fa-npm"></i>
+        <!--<i class="fas fa-universal-access"></i>-->
+        <!--<i class="fab fa-npm"></i>-->
         <i class="fab fa-node"></i>
         <i class="fab fa-github"></i>
       </div>
     </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can contact me via several popular social media platforms:</p>
+      <div id="contact-container">
+        <a href="https://facebook.com/andrew.a.douglas/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/cnatural13" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+
   </main>
  
   
